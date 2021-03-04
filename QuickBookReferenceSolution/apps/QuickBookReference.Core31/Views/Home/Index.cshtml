@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    
+    @using (Html.BeginForm("InitiateAuth", "Home", FormMethod.Post))
+    {
+        <div><input type="submit" name="submitButton" value="Connect to QuickBooks"/></div>
+    }
+
+</div>

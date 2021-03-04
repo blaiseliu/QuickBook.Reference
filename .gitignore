@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/QuickBookReferenceSolution/.vs/QuickBookReferenceSolution
+/QuickBookReferenceSolution/apps/QuickBookReference.Core31/bin/Debug/netcoreapp3.1
+/QuickBookReferenceSolution/apps/QuickBookReference.Core31/obj
